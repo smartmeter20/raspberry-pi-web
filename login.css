@@ -1,0 +1,79 @@
+html,body { 
+	height: 100%; 
+}
+
+.global-container{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+
+.login-form{ 
+	width:330px;
+	margin:20px;
+}
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #f27024;
+    border-color: #f27024;
+}
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #f27024;
+    border-color: #f27024;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f27024;
+    border-color: #ef915b;
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow:0 0 0 0.25rem #f4b089 !important;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ef915b;
+    outline: 0;
+    box-shadow:0 0 0 0.25rem #f4b089 !important;
+}
+.form-control:active {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ef915b;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem  #f4b089 !important;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #f27024;
+    border-color: #ef915b;
+    box-shadow: 0 0 0 0.25rem  #f4b089 !important;
+}

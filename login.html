@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.rtl.min.css" integrity="sha384-trxYGD5BY4TyBTvU5H23FalSCYwpLA0vWEvXXGm5eytyztxb+97WzzY+IWDOSbav" crossorigin="anonymous">
+    <link href="./login.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="global-container">
+        <div class="card login-form">
+            <div class="d-flex ">
+                <img class="mb-4" src="https://www.raspberrypi.org/wp-content/uploads/2011/10/Raspi-PGB001.png" alt="" width="150" height="150">
+                <img class="mb-4" src="https://webstockreview.net/images/electrical-clipart-electrical-technology-18.png" alt="" width="150" height="150">
+            </div>
+           
+        <div class="card-body">
+            <h3 class="card-title text-center">تسجيل الدخول الى عداد الكهرباء الذكي</h3>
+            <div class="card-text">
+                <!--
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
+                <form>
+                    <!-- to error: add class "has-danger" -->
+                    <div class="form-group mb-1">
+                        <label for="username">اسم المستخدم</label>
+                        <input type="text" class="form-control form-control-sm" id="username" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group mt-1">
+                        <label for="password">كلمة المرور</label>
+                        <input type="password" class="form-control form-control-sm" id="password">
+                    </div>
+                    <div class="form-group mt-1">
+                    <a href="#" style="font-size:12px;">نسيت كلمة المرور؟</a>
+                    </div>
+                    <button id="login" type="submit" class="btn btn-primary btn-block">تسجيل</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+ <script src="./login.js"></script>   
+</body>
+</html>
