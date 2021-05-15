@@ -1,5 +1,6 @@
 var token = localStorage.getItem('token');
-if(token){
+if(token && token!=='admin'){
+    console.log(token)
     const consumption = document.querySelector('#consumption');
     const balance = document.querySelector('#balance');
     const username = document.querySelector('#username');
@@ -48,9 +49,9 @@ function user(){
   .then(response => response.json())
   .then(data => {
     console.log('Success:', data);
-    consumption.textContent = data.user.consumption;
-    balance.textContent = data.user.balance;
-    username.textContent = data.user.username;
+    consumption.textContent = data.consumption;
+    balance.textContent = data.balance;
+    username.textContent = data.username;
   })
   .catch((error) => {
     console.error('Error:', error);
